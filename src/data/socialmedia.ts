@@ -1,0 +1,368 @@
+import { Time } from "@/types/Time";
+
+export const SocialMedia: Time[] = [
+    {
+        id: 1,
+        nome: "América-MG",
+        instagram: 262.000,
+        twitter: 184.000,
+        facebook: 157.000,
+        youtube: 25.900,
+        tiktok: 128.800,
+        socios: 3.350,
+        url: "america-mg.png"
+    },
+    {
+        id: 2,
+        nome: "Athletico-PR",
+        instagram: 863.000,
+        twitter: 1200.000,
+        facebook: 1100.000,
+        youtube: 261.000,
+        tiktok: 508.500,
+        socios: 40.000,
+        url: "athletico-pr.png"
+
+    },
+    {
+        id: 3,
+        nome: "Atletico-GO",
+        instagram: 247.000,
+        twitter: 136.600,
+        facebook: 107.000,
+        youtube: 16.100,
+        tiktok: 130.300,
+        socios: 2.000,
+        url: "atletico-go.png"
+    },
+    {
+        id: 4,
+        nome: "Atlético-MG",
+        instagram: 3000.000,
+        twitter: 2600.000,
+        facebook: 3400.000,
+        youtube: 664.000,
+        tiktok: 1500.000,
+        socios: 77.242,
+        url: "atletico-mg.png"
+    },
+    {
+        id: 5,
+        nome: "Avaí",
+        instagram: 229.000,
+        twitter: 238.700,
+        facebook: 260.000,
+        youtube: 36.800,
+        tiktok: 194.200,
+        socios: 10.804,
+        url: "avai.png"
+    },
+    {
+        id: 6,
+        nome: "Bahia",
+        instagram: 1500.000,
+        twitter: 1600.000,
+        facebook: 1100.000,
+        youtube: 310.000,
+        tiktok: 414.700,
+        socios: 65.000,
+        url: "bahia.png"
+    },
+    {
+        id: 7,
+        nome: "Botafogo",
+        instagram: 1300.000,
+        twitter: 1400.000,
+        facebook: 1400.000,
+        youtube: 547.000,
+        tiktok: 874.400,
+        socios: 56.419,
+        url: "botafogo.png"
+    },
+    {
+        id: 8,
+        nome: "Bragantino",
+        instagram: 622.000,
+        twitter: 131.100,
+        facebook: 365.000,
+        youtube: 30.300,
+        tiktok: 594.700,
+        socios: 7.500,
+        url: "bragantino.png"
+    },
+    {
+        id: 9,
+        nome: "Ceará",
+        instagram: 1300.00,
+        twitter: 461.400,
+        facebook: 956.000,
+        youtube: 191.000,
+        tiktok: 549.700,
+        socios: 30.792,
+        url: "ceara.png"
+    },
+    {
+        id: 10,
+        nome: "Chapecoense",
+        instagram: 1800.000,
+        twitter: 600.200,
+        facebook: 3500.000,
+        youtube: 43.500,
+        tiktok: 207.700,
+        socios: 7.264,
+        url: "chapecoense.png"
+    },
+    {
+        id: 11,
+        nome: "Corinthians",
+        instagram: 11300.000,
+        twitter: 7800.000,
+        facebook: 11000.000,
+        youtube: 2120.000,
+        tiktok: 4100.000,
+        socios: 43.000,
+        url: "corinthians.png"
+    },
+    {
+        id: 12,
+        nome: "Coritiba",
+        instagram: 410.000,
+        twitter: 980.900,
+        facebook: 528.000,
+        youtube: 117.000,
+        tiktok: 207.500,
+        socios: 39.264,
+        url: "coritiba.png"
+    },
+    {
+        id: 13,
+        nome: "CRB",
+        instagram: 410.000,
+        twitter: 108.200,
+        facebook: 155.000,
+        youtube: 23.800,
+        tiktok: 51.000,
+        socios: 2.681,
+        url: "crb.png"
+    },
+    {
+        id: 14,
+        nome: "Criciúma",
+        instagram: 346.000,
+        twitter: 572.600,
+        facebook: 207.000,
+        youtube: 24.500,
+        tiktok: 55.200,
+        socios: 17.200,
+        url: "criciuma.png"
+    },
+    {
+        id: 15,
+        nome: "Cruzeiro",
+        instagram: 2600.000,
+        twitter: 2600.000,
+        facebook: 3100.000,
+        youtube: 599.000,
+        tiktok: 1100.000,
+        socios: 42.767,
+        url: "cruzeiro.png"
+    },
+    {
+        id: 16,
+        nome: "Cuiabá",
+        instagram: 455.000,
+        twitter: 78.100,
+        facebook: 171.000,
+        youtube: 28.200,
+        tiktok: 111.100,
+        socios: 2.000,
+        url: "cuiaba.png"
+    },
+    {
+        id: 17,
+        nome: "Flamengo",
+        instagram: 19600.000,
+        twitter: 10700.000,
+        facebook: 13000.000,
+        youtube: 6900.000,
+        tiktok: 8000.000,
+        socios: 77.000,
+        url: "flamengo.png"
+    },
+    {
+        id: 18,
+        nome: "Fluminense",
+        instagram: 2300.00,
+        twitter: 1500.000,
+        facebook: 1900.000,
+        youtube: 813.000,
+        tiktok: 2000.000,
+        socios: 61.592,
+        url: "fluminense.png"
+    },
+    {
+        id: 19,
+        nome: "Fortaleza",
+        instagram: 1500.000,
+        twitter: 457.100,
+        facebook: 1000.000,
+        youtube: 251.000,
+        tiktok: 720.300,
+        socios: 37.574,
+        url: "fortaleza.png"
+    },
+    {
+        id: 20,
+        nome: "Goiás",
+        instagram: 491.000,
+        twitter: 664.300,
+        facebook: 328.000,
+        youtube: 115.000,
+        tiktok: 164.100,
+        socios: 5.000,
+        url: "goias.png"
+    },
+    {
+        id: 21,
+        nome: "Grêmio",
+        instagram: 3300.000,
+        twitter: 3100.000,
+        facebook: 3400.000,
+        youtube: 930.000,
+        tiktok: 1100.000,
+        socios: 112.075,
+        url: "gremio.png"
+    },
+    {
+        id: 22,
+        nome: "Internacional",
+        instagram: 2100.000,
+        twitter: 1900.000,
+        facebook: 2600.000,
+        youtube: 388.000,
+        tiktok: 707.200,
+        socios: 140.000,
+        url: "internacional.png"
+    },
+    {
+        id: 23,
+        nome: "Juventude",
+        instagram: 235.000,
+        twitter: 98.000,
+        facebook: 210.000,
+        youtube: 17.500,
+        tiktok: 104.800,
+        socios: 7.566,
+        url: "juventude.png"
+    },
+    {
+        id: 24,
+        nome: "Náutico",
+        instagram: 298.000,
+        twitter: 180.400,
+        facebook: 214.000,
+        youtube: 34.400,
+        tiktok: 127.100,
+        socios: 24.785,
+        url: "nautico.png"
+    },
+    {
+        id: 25,
+        nome: "Palmeiras",
+        instagram: 6100.000,
+        twitter: 3800.000,
+        facebook: 1200.000,
+        youtube: 2130.000,
+        tiktok: 3600.000,
+        socios: 176.521,
+        url: "palmeiras.png"
+    },
+    {
+        id: 26,
+        nome: "Paysandu",
+        instagram: 760.000,
+        twitter: 234.500,
+        facebook: 464.000,
+        youtube: 194.000,
+        tiktok: 284.900,
+        socios: 4.561,
+        url: "paysandu.png"
+    },
+    {
+        id: 27,
+        nome: "Santa Cruz",
+        instagram: 533.000,
+        twitter: 284.700,
+        facebook: 537.000,
+        youtube: 20.600,
+        tiktok: 206.400,
+        socios: 10.000,
+        url: "santa cruz.png"
+    },
+    {
+        id: 28,
+        nome: "Santos",
+        instagram: 3300.000,
+        twitter: 3100.000,
+        facebook: 4000.000,
+        youtube: 1260.000,
+        tiktok: 2100.000,
+        socios: 40.773,
+        url: "santos.png"
+    },
+    {
+        id: 29,
+        nome: "São Paulo",
+        instagram: 6500.000,
+        twitter: 4900.000,
+        facebook: 6900.000,
+        youtube: 1900.000,
+        tiktok: 1700.000,
+        socios: 55.058,
+        url: "sao paulo.png"
+    },
+    {
+        id: 30,
+        nome: "Sport",
+        instagram: 1400.000,
+        twitter: 1600.000,
+        facebook: 1000.000,
+        youtube: 187.000,
+        tiktok: 893.700,
+        socios: 17.100,
+        url: "sport.png"
+    },
+    {
+        id: 31,
+        nome: "Vasco",
+        instagram: 3100.000,
+        twitter: 2700.000,
+        facebook: 3100.000,
+        youtube: 1300.000,
+        tiktok: 2900.000,
+        socios: 45.000,
+        url: "vasco.png"
+    },
+    {
+        id: 32,
+        nome: "Vila Nova",
+        instagram: 296.000,
+        twitter: 124.300,
+        facebook: 132.000,
+        youtube: 39.100,
+        tiktok: 173.000,
+        socios: 3.430,
+        url: "vila nova.png"
+    },
+    {
+        id: 33,
+        nome: "Vitória",
+        instagram: 1700.000,
+        twitter: 1100.000,
+        facebook: 757.000,
+        youtube: 141.000,
+        tiktok: 564.800,
+        socios: 31.329,
+        url: "vitoria.png"
+    }
+]
