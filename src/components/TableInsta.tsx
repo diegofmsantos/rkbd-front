@@ -36,7 +36,9 @@ export const TableInsta = () => {
                             <Image src={`/assets/logos-times/${time.url}`} width={25} height={25} alt="Logo" />
                             <div className="w-24 pr-2">{time.nome}</div>
                         </TableCell>
-                        <TableCell>{time.instagram.toFixed(3)}</TableCell>
+                        <TableCell>
+                            {(time.instagram * 1000).toLocaleString('pt-BR', { maximumFractionDigits: 3 })}
+                        </TableCell>
                     </TableRow>
                 ))}
             </TableBody>

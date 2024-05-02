@@ -38,7 +38,7 @@ export const TableTwitter = () => {
                             <Image src={`/assets/logos-times/${time.url}`} width={25} height={25} alt="Logo" />
                             <div className="w-24 pr-2">{time.nome}</div>
                         </TableCell>
-                        <TableCell>{time.twitter.toFixed(3)}</TableCell>
+                        <TableCell>{(time.twitter * 1000).toLocaleString('pt-BR', { maximumFractionDigits: 3 })}</TableCell>
                     </TableRow>
                 ))}
             </TableBody>

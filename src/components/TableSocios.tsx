@@ -37,7 +37,7 @@ export const TableSocios = () => {
                             <Image src={`/assets/logos-times/${time.url}`} width={25} height={25} alt="Logo" />
                             <div className="w-24 pr-2">{time.nome}</div>
                         </TableCell>
-                        <TableCell>{time.socios.toFixed(3)}</TableCell>
+                        <TableCell>{time.socios.toLocaleString('pt-BR').replace(',', '.')}</TableCell>
                     </TableRow>
                 ))}
             </TableBody>

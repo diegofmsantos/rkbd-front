@@ -37,7 +37,7 @@ export const TableFace = () => {
                             <Image src={`/assets/logos-times/${time.url}`} width={25} height={25} alt="Logo" />
                             <div className="w-24 pr-2">{time.nome}</div>
                         </TableCell>
-                        <TableCell>{time.facebook.toFixed(3)}</TableCell>
+                        <TableCell>{(time.facebook * 1000).toLocaleString('pt-BR', { maximumFractionDigits: 3 })}</TableCell>
                     </TableRow>
                 ))}
             </TableBody>
