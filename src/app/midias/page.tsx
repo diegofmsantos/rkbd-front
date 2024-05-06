@@ -1,5 +1,6 @@
 "use client"
 
+import { Filter } from "@/components/Filter";
 import { Nav } from "@/components/Nav";
 import { TableFace } from "@/components/TableFace";
 import { TableInsta } from "@/components/TableInsta";
@@ -44,6 +45,7 @@ const Page = () => {
                     <TabsTrigger onClick={() => handleSelected4('button4')} value="youtube" className={`border-b-4 ${selected === 'button4' ? 'border-b-[#16C6D1]' : 'border-b-[#F5F5F5]'}`}>Youtube</TabsTrigger>
                     <TabsTrigger onClick={() => handleSelected5('button5')} value="tiktok" className={`border-b-4 ${selected === 'button5' ? 'border-b-[#16C6D1]' : 'border-b-[#F5F5F5]'}`}>TikTok</TabsTrigger>
                 </TabsList>
+                <Filter />
                 <TabsContent value="instagram">
                     <TableInsta />
                 </TabsContent>

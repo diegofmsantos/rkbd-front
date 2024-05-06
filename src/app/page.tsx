@@ -1,4 +1,3 @@
-import { Header } from "@/components/Header";
 import { Nav } from "@/components/Nav";
 
 const Page = () => {
