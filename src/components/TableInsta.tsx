@@ -34,9 +34,9 @@ export const TableInsta = () => {
                 {times.map((time) => (
                     <TableRow key={time.id}>
                         <TableCell>{count ++}</TableCell>
-                        <TableCell className="flex gap-2 items-center justify-center">
+                        <TableCell className="flex items-center justify-center gap-4 text-start">
                             <Image src={`/assets/logos-times/${time.url}`} width={25} height={25} alt="Logo" />
-                            <div className="w-24 pr-2">{time.nome}</div>
+                            <div className="w-32 pr-2">{time.nome}</div>
                         </TableCell>
                         <TableCell>
                             {(time.instagram * 1000).toLocaleString('pt-BR', { maximumFractionDigits: 3 })}
