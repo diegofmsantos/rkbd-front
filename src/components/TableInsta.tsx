@@ -19,6 +19,8 @@ export const TableInsta = () => {
         loadTimes()
     }, [])
 
+    let count = 1
+
     return (
         <Table className="text-center">
             <TableHeader>
@@ -31,7 +33,7 @@ export const TableInsta = () => {
             <TableBody>
                 {times.map((time) => (
                     <TableRow key={time.id}>
-                        <TableCell>{time.id}</TableCell>
+                        <TableCell>{count ++}</TableCell>
                         <TableCell className="flex gap-2 items-center justify-center">
                             <Image src={`/assets/logos-times/${time.url}`} width={25} height={25} alt="Logo" />
                             <div className="w-24 pr-2">{time.nome}</div>
