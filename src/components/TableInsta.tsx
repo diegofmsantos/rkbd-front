@@ -5,13 +5,13 @@ import Image from "next/image"
 import { api } from "@/api/api"
 import { useEffect, useReducer } from "react"
 import { timeReducer } from "@/reducer/timeReducer"
+
 export const TableInsta = () => {
 
     const [times, dispatch] = useReducer(timeReducer, [])
 
     const loadTimes = async () => {
         const reponse = await api.get('/times/instagram')
-
         dispatch({ type: 'load', payload: reponse.data })
     }
 
@@ -33,7 +33,7 @@ export const TableInsta = () => {
             <TableBody>
                 {times.map((time) => (
                     <TableRow key={time.id}>
-                        <TableCell>{count ++}</TableCell>
+                        <TableCell>{count++}</TableCell>
                         <TableCell className="flex items-center justify-center gap-4 text-start">
                             <Image src={`/assets/logos-times/${time.url}`} width={25} height={25} alt="Logo" />
                             <div className="w-32 pr-2">{time.nome}</div>

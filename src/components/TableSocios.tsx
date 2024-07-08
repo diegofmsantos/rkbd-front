@@ -12,7 +12,6 @@ export const TableSocios = () => {
 
     const loadTimes = async () => {
         const reponse = await api.get('/socios')
-
         dispatch({ type: 'load', payload: reponse.data })
     }
 
